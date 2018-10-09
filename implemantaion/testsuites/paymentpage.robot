@@ -6,7 +6,7 @@ Test Teardown  Close Browser
 
 ***Variables***
 
-***Test Cases***
+***Keywords***
 Book Hotel
   [Tags]  ready
   [Documentation]

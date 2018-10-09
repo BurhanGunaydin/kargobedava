@@ -1,6 +1,7 @@
 ***Settings***
 Resource  ../resources/general_keywords.robot
 Resource  ../resources/search_result_keywords.robot
+Resource  paymentpage.robot
 Test Setup  Open APP
 Test Teardown  Close Browser
 

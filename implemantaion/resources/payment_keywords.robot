@@ -48,7 +48,7 @@ ${bank_name}  AmericanExpress
 Check PaymentPopup
   click element  ${hotel_name}
   Select Window  locator=NEW
-
+  click element  ${pay_button}
   wait until page contains text  ${information_text}
   clear element text  ${name_input}
   input text  ${name_input}  ${name_value}
@@ -70,4 +70,3 @@ Check PaymentPopup
   input text  ${cvv_input}  ${cvc_value}
   clear element text  ${bank_input}
   input text  ${bank_input}  ${bank_name}
-

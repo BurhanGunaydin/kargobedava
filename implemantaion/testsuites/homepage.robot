@@ -26,3 +26,4 @@ Deneme
   Change Currency
   Search City
   Set HotelsFilter
+  Check PaymentPopup
