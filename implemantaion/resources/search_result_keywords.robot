@@ -25,7 +25,6 @@ ${rating_lowest}  xpath=//*[@data-element-name='search-sort-guest-rating']
 
 ***Keywords***
 Check SearchResultPage
-  debug
   wait until page contains element  ${resultPage_box}
   click element  ${hotels_button}
   wait until page contains element  ${resultPage_box}
@@ -61,4 +60,3 @@ Set Property facilities
 Set Guest Rating
   click element  ${rating_lowest}
   wait until page contains element  ${hotel-name}  10
-  debug

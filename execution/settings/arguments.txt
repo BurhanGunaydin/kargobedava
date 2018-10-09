@@ -4,4 +4,4 @@
 --exclude=not_developed
 --exclude=not_ci
 --critical smoke
---test=Set HotelsFilter
+--test=*
