@@ -25,7 +25,9 @@ ${rating_lowest}  xpath=//*[@data-element-name='search-sort-guest-rating']
 
 ***Keywords***
 Check SearchResultPage
+  sleep  3
   wait until page contains element  ${resultPage_box}
+  wait until page contains element  ${hotels_button}  20
   click element  ${hotels_button}
   wait until page contains element  ${resultPage_box}
 
@@ -33,30 +35,38 @@ Set MaxPricePerNight
   clear element text  ${price_input}
   input text  ${price_input}  ${price_per_night}
   press key  ${price_input}  ${enter}
-  wait until page contains element  ${hotel-name}
+  wait until page contains element  ${hotel-name}  20
+  sleep  2
 
 Set Property Type
-  wait until page contains element  ${select_property_type}
+  wait until page contains element  ${select_property_type}  20
   click element  ${select_property_type}
-  wait until page contains element  ${hotel-name}  10
+  wait until page contains element  ${hotel-name}  20
+  sleep  2
 
 Set Rating Type
-  wait until page contains element  ${select_rating_type}
+  wait until page contains element  ${select_rating_type}  20
   click element  ${select_rating_type}
-  wait until page contains element  ${hotel-name}  10
+  wait until page contains element  ${hotel-name}  20
+  sleep  2
 
 Set Free Cancelition
-  wait until page contains element  ${select_free_cancelition}
+  Execute JavaScript    window.scrollTo(document.body.scrollHeight, 10)
+  wait until page contains element  ${select_free_cancelition}  20
   click element  ${select_free_cancelition}
-  wait until page contains element  ${hotel-name}  10
+  wait until page contains element  ${hotel-name}  20
+  sleep  2
 
 Set Property facilities
-  wait until page contains element  ${show_more_button_property_facilities}
+  wait until page contains element  ${show_more_button_property_facilities}  20
   click element  ${show_more_button_property_facilities}
-  wait until page contains element  ${non-smoking-button}
+  wait until page contains element  ${non-smoking-button}  20
   click element  ${non-smoking-button}
-  wait until page contains element  ${hotel-name}  10
+  wait until page contains element  ${hotel-name}  20
+  sleep  2
 
 Set Guest Rating
+  Execute JavaScript    window.scrollTo(document.body.scrollHeight, 0)
   click element  ${rating_lowest}
-  wait until page contains element  ${hotel-name}  10
+  wait until page contains element  ${hotel-name}  20
+  sleep  2
