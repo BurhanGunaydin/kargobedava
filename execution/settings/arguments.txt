@@ -1,0 +1,7 @@
+--loglevel=DEBUG
+--exclude=not_done
+--exclude=not_ready
+--exclude=not_developed
+--exclude=not_ci
+--critical smoke
+--test=*
