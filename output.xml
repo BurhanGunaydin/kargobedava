@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20181009 10:27:51.303" generator="Robot 3.0.4 (Python 2.7.10 on darwin)">
+<robot generated="20181009 11:28:51.432" generator="Robot 3.0.4 (Python 2.7.10 on darwin)">
 <suite source="/Users/gurkan.yarar/Desktop/kargobedava" id="s1" name="Kargobedava">
 <suite source="/Users/gurkan.yarar/Desktop/kargobedava/implemantaion" id="s1-s1" name="Implemantaion">
 <suite source="/Users/gurkan.yarar/Desktop/kargobedava/implemantaion/testsuites" id="s1-s1-s1" name="Testsuites">
 <suite source="/Users/gurkan.yarar/Desktop/kargobedava/implemantaion/testsuites/homepage.robot" id="s1-s1-s1-s1" name="Homepage">
-<test id="s1-s1-s1-s1-t1" name="Search Bar">
+<test id="s1-s1-s1-s1-t1" name="Change Currency">
 <kw type="setup" name="Open APP" library="general_keywords">
 <doc>Uygulama Acilir</doc>
 <kw name="Open Browser" library="Selenium2Library">
@@ -13,57 +13,172 @@
 <arg>${URL}</arg>
 <arg>${Browser}</arg>
 </arguments>
-<msg timestamp="20181009 10:27:51.718" level="INFO">Opening browser 'Chrome' to base url 'https://www.agoda.com'.</msg>
-<msg timestamp="20181009 10:27:52.744" level="DEBUG">POST http://127.0.0.1:63175/session {"capabilities": {"alwaysMatch": {"browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"platform": "ANY", "browserName": "chrome", "version": ""}}</msg>
-<msg timestamp="20181009 10:27:53.290" level="DEBUG">Finished Request</msg>
-<msg timestamp="20181009 10:27:53.290" level="DEBUG">POST http://127.0.0.1:63175/session/9452d724dcfd629f16d2ea877314f6ff/timeouts/async_script {"sessionId": "9452d724dcfd629f16d2ea877314f6ff", "ms": 5000.0}</msg>
-<msg timestamp="20181009 10:27:53.291" level="DEBUG">Finished Request</msg>
-<msg timestamp="20181009 10:27:53.291" level="DEBUG">POST http://127.0.0.1:63175/session/9452d724dcfd629f16d2ea877314f6ff/timeouts/implicit_wait {"sessionId": "9452d724dcfd629f16d2ea877314f6ff", "ms": 0.0}</msg>
-<msg timestamp="20181009 10:27:53.292" level="DEBUG">Finished Request</msg>
-<msg timestamp="20181009 10:27:53.292" level="DEBUG">POST http://127.0.0.1:63175/session/9452d724dcfd629f16d2ea877314f6ff/url {"url": "https://www.agoda.com", "sessionId": "9452d724dcfd629f16d2ea877314f6ff"}</msg>
-<msg timestamp="20181009 10:28:01.252" level="DEBUG">Finished Request</msg>
-<msg timestamp="20181009 10:28:01.253" level="DEBUG">Opened browser with session id 9452d724dcfd629f16d2ea877314f6ff.</msg>
-<status status="PASS" endtime="20181009 10:28:01.253" starttime="20181009 10:27:51.717"></status>
+<msg timestamp="20181009 11:28:52.030" level="INFO">Opening browser 'Chrome' to base url 'https://www.agoda.com'.</msg>
+<msg timestamp="20181009 11:28:53.170" level="DEBUG">POST http://127.0.0.1:62291/session {"capabilities": {"alwaysMatch": {"browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"platform": "ANY", "browserName": "chrome", "version": ""}}</msg>
+<msg timestamp="20181009 11:28:53.798" level="DEBUG">Finished Request</msg>
+<msg timestamp="20181009 11:28:53.798" level="DEBUG">POST http://127.0.0.1:62291/session/a5d615f46c6d46653204f8c5dd6434df/timeouts/async_script {"sessionId": "a5d615f46c6d46653204f8c5dd6434df", "ms": 5000.0}</msg>
+<msg timestamp="20181009 11:28:53.800" level="DEBUG">Finished Request</msg>
+<msg timestamp="20181009 11:28:53.800" level="DEBUG">POST http://127.0.0.1:62291/session/a5d615f46c6d46653204f8c5dd6434df/timeouts/implicit_wait {"sessionId": "a5d615f46c6d46653204f8c5dd6434df", "ms": 0.0}</msg>
+<msg timestamp="20181009 11:28:53.801" level="DEBUG">Finished Request</msg>
+<msg timestamp="20181009 11:28:53.801" level="DEBUG">POST http://127.0.0.1:62291/session/a5d615f46c6d46653204f8c5dd6434df/url {"url": "https://www.agoda.com", "sessionId": "a5d615f46c6d46653204f8c5dd6434df"}</msg>
+<msg timestamp="20181009 11:29:01.825" level="DEBUG">Finished Request</msg>
+<msg timestamp="20181009 11:29:01.825" level="DEBUG">Opened browser with session id a5d615f46c6d46653204f8c5dd6434df.</msg>
+<status status="PASS" endtime="20181009 11:29:01.825" starttime="20181009 11:28:52.030"></status>
 </kw>
 <kw name="Maximize Browser Window" library="Selenium2Library">
 <doc>Maximizes current browser window.</doc>
-<msg timestamp="20181009 10:28:01.254" level="DEBUG">POST http://127.0.0.1:63175/session/9452d724dcfd629f16d2ea877314f6ff/window/current/maximize {"windowHandle": "current", "sessionId": "9452d724dcfd629f16d2ea877314f6ff"}</msg>
-<msg timestamp="20181009 10:28:01.362" level="DEBUG">Finished Request</msg>
-<status status="PASS" endtime="20181009 10:28:01.362" starttime="20181009 10:28:01.254"></status>
+<msg timestamp="20181009 11:29:01.827" level="DEBUG">POST http://127.0.0.1:62291/session/a5d615f46c6d46653204f8c5dd6434df/window/current/maximize {"windowHandle": "current", "sessionId": "a5d615f46c6d46653204f8c5dd6434df"}</msg>
+<msg timestamp="20181009 11:29:02.054" level="DEBUG">Finished Request</msg>
+<status status="PASS" endtime="20181009 11:29:02.055" starttime="20181009 11:29:01.826"></status>
 </kw>
 <kw name="Capture Page Screenshot" library="Selenium2Library">
 <doc>Takes screenshot of the current page and embeds it into log file.</doc>
-<msg timestamp="20181009 10:28:01.363" level="DEBUG">GET http://127.0.0.1:63175/session/9452d724dcfd629f16d2ea877314f6ff/screenshot {"sessionId": "9452d724dcfd629f16d2ea877314f6ff"}</msg>
-<msg timestamp="20181009 10:28:02.004" level="DEBUG">Finished Request</msg>
-<msg timestamp="20181009 10:28:02.009" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" endtime="20181009 10:28:02.009" starttime="20181009 10:28:01.362"></status>
+<msg timestamp="20181009 11:29:02.056" level="DEBUG">GET http://127.0.0.1:62291/session/a5d615f46c6d46653204f8c5dd6434df/screenshot {"sessionId": "a5d615f46c6d46653204f8c5dd6434df"}</msg>
+<msg timestamp="20181009 11:29:02.629" level="DEBUG">Finished Request</msg>
+<msg timestamp="20181009 11:29:02.634" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-19.png"&gt;&lt;img src="selenium-screenshot-19.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20181009 11:29:02.634" starttime="20181009 11:29:02.055"></status>
 </kw>
-<status status="PASS" endtime="20181009 10:28:02.009" starttime="20181009 10:27:51.717"></status>
+<status status="PASS" endtime="20181009 11:29:02.634" starttime="20181009 11:28:52.030"></status>
 </kw>
-<kw name="Debug" library="DebugLibrary">
-<doc>Open a interactive shell, run any RobotFramework keywords.</doc>
-<status status="PASS" endtime="20181009 10:28:12.531" starttime="20181009 10:28:02.009"></status>
+<kw name="Check Homepage" library="homepage_keywords">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element ``locator`` appears on current page.</doc>
+<arguments>
+<arg>${homepage_title}</arg>
+</arguments>
+<msg timestamp="20181009 11:29:02.635" level="DEBUG">POST http://127.0.0.1:62291/session/a5d615f46c6d46653204f8c5dd6434df/elements {"using": "xpath", "sessionId": "a5d615f46c6d46653204f8c5dd6434df", "value": "//*[@data-selenium='hero-banner-h1']"}</msg>
+<msg timestamp="20181009 11:29:02.654" level="DEBUG">Finished Request</msg>
+<status status="PASS" endtime="20181009 11:29:02.654" starttime="20181009 11:29:02.635"></status>
+</kw>
+<status status="PASS" endtime="20181009 11:29:02.654" starttime="20181009 11:29:02.634"></status>
+</kw>
+<kw name="Set Price Options" library="homepage_keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${currency_button}</arg>
+</arguments>
+<msg timestamp="20181009 11:29:02.655" level="INFO">Clicking element 'xpath=//*[@data-selenium='currency-trigger']'.</msg>
+<msg timestamp="20181009 11:29:02.656" level="DEBUG">POST http://127.0.0.1:62291/session/a5d615f46c6d46653204f8c5dd6434df/elements {"using": "xpath", "sessionId": "a5d615f46c6d46653204f8c5dd6434df", "value": "//*[@data-selenium='currency-trigger']"}</msg>
+<msg timestamp="20181009 11:29:02.670" level="DEBUG">Finished Request</msg>
+<msg timestamp="20181009 11:29:02.670" level="DEBUG">POST http://127.0.0.1:62291/session/a5d615f46c6d46653204f8c5dd6434df/element/0.42082759511732415-2/click {"sessionId": "a5d615f46c6d46653204f8c5dd6434df", "id": "0.42082759511732415-2"}</msg>
+<msg timestamp="20181009 11:29:02.733" level="DEBUG">Finished Request</msg>
+<status status="PASS" endtime="20181009 11:29:02.733" starttime="20181009 11:29:02.655"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element ``locator`` appears on current page.</doc>
+<arguments>
+<arg>${price_display_text}</arg>
+</arguments>
+<msg timestamp="20181009 11:29:02.734" level="DEBUG">POST http://127.0.0.1:62291/session/a5d615f46c6d46653204f8c5dd6434df/elements {"using": "xpath", "sessionId": "a5d615f46c6d46653204f8c5dd6434df", "value": "//*[@data-selenium='price-display']"}</msg>
+<msg timestamp="20181009 11:29:02.747" level="DEBUG">Finished Request</msg>
+<msg timestamp="20181009 11:29:02.948" level="DEBUG">POST http://127.0.0.1:62291/session/a5d615f46c6d46653204f8c5dd6434df/elements {"using": "xpath", "sessionId": "a5d615f46c6d46653204f8c5dd6434df", "value": "//*[@data-selenium='price-display']"}</msg>
+<msg timestamp="20181009 11:29:02.958" level="DEBUG">Finished Request</msg>
+<msg timestamp="20181009 11:29:03.160" level="DEBUG">POST http://127.0.0.1:62291/session/a5d615f46c6d46653204f8c5dd6434df/elements {"using": "xpath", "sessionId": "a5d615f46c6d46653204f8c5dd6434df", "value": "//*[@data-selenium='price-display']"}</msg>
+<msg timestamp="20181009 11:29:03.167" level="DEBUG">Finished Request</msg>
+<msg timestamp="20181009 11:29:03.371" level="DEBUG">POST http://127.0.0.1:62291/session/a5d615f46c6d46653204f8c5dd6434df/elements {"using": "xpath", "sessionId": "a5d615f46c6d46653204f8c5dd6434df", "value": "//*[@data-selenium='price-display']"}</msg>
+<msg timestamp="20181009 11:29:03.381" level="DEBUG">Finished Request</msg>
+<msg timestamp="20181009 11:29:03.586" level="DEBUG">POST http://127.0.0.1:62291/session/a5d615f46c6d46653204f8c5dd6434df/elements {"using": "xpath", "sessionId": "a5d615f46c6d46653204f8c5dd6434df", "value": "//*[@data-selenium='price-display']"}</msg>
+<msg timestamp="20181009 11:29:03.596" level="DEBUG">Finished Request</msg>
+<status status="PASS" endtime="20181009 11:29:03.596" starttime="20181009 11:29:02.733"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20181009 11:29:03.597" level="DEBUG">GET http://127.0.0.1:62291/session/a5d615f46c6d46653204f8c5dd6434df/screenshot {"sessionId": "a5d615f46c6d46653204f8c5dd6434df"}</msg>
+<msg timestamp="20181009 11:29:04.087" level="DEBUG">Finished Request</msg>
+<msg timestamp="20181009 11:29:04.090" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-20.png"&gt;&lt;img src="selenium-screenshot-20.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20181009 11:29:04.090" starttime="20181009 11:29:03.596"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${price_options}</arg>
+</arguments>
+<msg timestamp="20181009 11:29:04.091" level="INFO">Clicking element 'xpath=//*[@data-selenium='price-view-option-inclusive']'.</msg>
+<msg timestamp="20181009 11:29:04.091" level="DEBUG">POST http://127.0.0.1:62291/session/a5d615f46c6d46653204f8c5dd6434df/elements {"using": "xpath", "sessionId": "a5d615f46c6d46653204f8c5dd6434df", "value": "//*[@data-selenium='price-view-option-inclusive']"}</msg>
+<msg timestamp="20181009 11:29:04.115" level="DEBUG">Finished Request</msg>
+<msg timestamp="20181009 11:29:04.115" level="DEBUG">POST http://127.0.0.1:62291/session/a5d615f46c6d46653204f8c5dd6434df/element/0.42082759511732415-4/click {"sessionId": "a5d615f46c6d46653204f8c5dd6434df", "id": "0.42082759511732415-4"}</msg>
+<msg timestamp="20181009 11:29:04.164" level="DEBUG">Finished Request</msg>
+<status status="PASS" endtime="20181009 11:29:04.164" starttime="20181009 11:29:04.090"></status>
+</kw>
+<status status="PASS" endtime="20181009 11:29:04.164" starttime="20181009 11:29:02.655"></status>
+</kw>
+<kw name="Set Currency" library="homepage_keywords">
+<kw name="Wait Until Page Does Not Contain Element" library="Selenium2Library">
+<doc>Waits until element ``locator`` disappears from current page.</doc>
+<arguments>
+<arg>${price_display_text}</arg>
+</arguments>
+<msg timestamp="20181009 11:29:04.166" level="DEBUG">POST http://127.0.0.1:62291/session/a5d615f46c6d46653204f8c5dd6434df/elements {"using": "xpath", "sessionId": "a5d615f46c6d46653204f8c5dd6434df", "value": "//*[@data-selenium='price-display']"}</msg>
+<msg timestamp="20181009 11:29:04.173" level="DEBUG">Finished Request</msg>
+<status status="PASS" endtime="20181009 11:29:04.173" starttime="20181009 11:29:04.165"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20181009 11:29:04.174" level="DEBUG">GET http://127.0.0.1:62291/session/a5d615f46c6d46653204f8c5dd6434df/screenshot {"sessionId": "a5d615f46c6d46653204f8c5dd6434df"}</msg>
+<msg timestamp="20181009 11:29:04.707" level="DEBUG">Finished Request</msg>
+<msg timestamp="20181009 11:29:04.712" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-21.png"&gt;&lt;img src="selenium-screenshot-21.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20181009 11:29:04.712" starttime="20181009 11:29:04.174"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${currency_button}</arg>
+</arguments>
+<msg timestamp="20181009 11:29:04.712" level="INFO">Clicking element 'xpath=//*[@data-selenium='currency-trigger']'.</msg>
+<msg timestamp="20181009 11:29:04.712" level="DEBUG">POST http://127.0.0.1:62291/session/a5d615f46c6d46653204f8c5dd6434df/elements {"using": "xpath", "sessionId": "a5d615f46c6d46653204f8c5dd6434df", "value": "//*[@data-selenium='currency-trigger']"}</msg>
+<msg timestamp="20181009 11:29:04.721" level="DEBUG">Finished Request</msg>
+<msg timestamp="20181009 11:29:04.721" level="DEBUG">POST http://127.0.0.1:62291/session/a5d615f46c6d46653204f8c5dd6434df/element/0.42082759511732415-2/click {"sessionId": "a5d615f46c6d46653204f8c5dd6434df", "id": "0.42082759511732415-2"}</msg>
+<msg timestamp="20181009 11:29:04.776" level="DEBUG">Finished Request</msg>
+<status status="PASS" endtime="20181009 11:29:04.776" starttime="20181009 11:29:04.712"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20181009 11:29:04.777" level="DEBUG">GET http://127.0.0.1:62291/session/a5d615f46c6d46653204f8c5dd6434df/screenshot {"sessionId": "a5d615f46c6d46653204f8c5dd6434df"}</msg>
+<msg timestamp="20181009 11:29:05.332" level="DEBUG">Finished Request</msg>
+<msg timestamp="20181009 11:29:05.335" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-22.png"&gt;&lt;img src="selenium-screenshot-22.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20181009 11:29:05.335" starttime="20181009 11:29:04.776"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${select_euro}</arg>
+</arguments>
+<msg timestamp="20181009 11:29:05.335" level="INFO">Clicking element 'xpath=//*[@data-value='EUR']'.</msg>
+<msg timestamp="20181009 11:29:05.335" level="DEBUG">POST http://127.0.0.1:62291/session/a5d615f46c6d46653204f8c5dd6434df/elements {"using": "xpath", "sessionId": "a5d615f46c6d46653204f8c5dd6434df", "value": "//*[@data-value='EUR']"}</msg>
+<msg timestamp="20181009 11:29:05.348" level="DEBUG">Finished Request</msg>
+<msg timestamp="20181009 11:29:05.348" level="DEBUG">POST http://127.0.0.1:62291/session/a5d615f46c6d46653204f8c5dd6434df/element/0.42082759511732415-5/click {"sessionId": "a5d615f46c6d46653204f8c5dd6434df", "id": "0.42082759511732415-5"}</msg>
+<msg timestamp="20181009 11:29:05.397" level="DEBUG">Finished Request</msg>
+<status status="PASS" endtime="20181009 11:29:05.397" starttime="20181009 11:29:05.335"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20181009 11:29:05.398" level="DEBUG">GET http://127.0.0.1:62291/session/a5d615f46c6d46653204f8c5dd6434df/screenshot {"sessionId": "a5d615f46c6d46653204f8c5dd6434df"}</msg>
+<msg timestamp="20181009 11:29:05.941" level="DEBUG">Finished Request</msg>
+<msg timestamp="20181009 11:29:05.945" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-23.png"&gt;&lt;img src="selenium-screenshot-23.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20181009 11:29:05.945" starttime="20181009 11:29:05.398"></status>
+</kw>
+<status status="PASS" endtime="20181009 11:29:05.945" starttime="20181009 11:29:04.165"></status>
 </kw>
 <kw type="teardown" name="Close Browser" library="Selenium2Library">
 <doc>Closes the current browser.</doc>
-<msg timestamp="20181009 10:28:12.532" level="DEBUG">Closing browser with session id 9452d724dcfd629f16d2ea877314f6ff.</msg>
-<msg timestamp="20181009 10:28:12.532" level="DEBUG">DELETE http://127.0.0.1:63175/session/9452d724dcfd629f16d2ea877314f6ff {"sessionId": "9452d724dcfd629f16d2ea877314f6ff"}</msg>
-<msg timestamp="20181009 10:28:12.585" level="DEBUG">Finished Request</msg>
-<status status="PASS" endtime="20181009 10:28:12.610" starttime="20181009 10:28:12.532"></status>
+<msg timestamp="20181009 11:29:05.946" level="DEBUG">Closing browser with session id a5d615f46c6d46653204f8c5dd6434df.</msg>
+<msg timestamp="20181009 11:29:05.946" level="DEBUG">DELETE http://127.0.0.1:62291/session/a5d615f46c6d46653204f8c5dd6434df {"sessionId": "a5d615f46c6d46653204f8c5dd6434df"}</msg>
+<msg timestamp="20181009 11:29:05.999" level="DEBUG">Finished Request</msg>
+<status status="PASS" endtime="20181009 11:29:06.035" starttime="20181009 11:29:05.946"></status>
 </kw>
-<doc>Search Barın geldiginin kontrolü</doc>
 <tags>
 <tag>ready</tag>
 </tags>
-<status status="PASS" endtime="20181009 10:28:12.610" critical="no" starttime="20181009 10:27:51.716"></status>
+<status status="PASS" endtime="20181009 11:29:06.035" critical="no" starttime="20181009 11:28:52.029"></status>
 </test>
-<status status="PASS" endtime="20181009 10:28:12.611" starttime="20181009 10:27:51.335"></status>
+<status status="PASS" endtime="20181009 11:29:06.036" starttime="20181009 11:28:51.466"></status>
 </suite>
-<status status="PASS" endtime="20181009 10:28:12.613" starttime="20181009 10:27:51.334"></status>
+<status status="PASS" endtime="20181009 11:29:06.038" starttime="20181009 11:28:51.464"></status>
 </suite>
-<status status="PASS" endtime="20181009 10:28:12.614" starttime="20181009 10:27:51.332"></status>
+<status status="PASS" endtime="20181009 11:29:06.040" starttime="20181009 11:28:51.462"></status>
 </suite>
-<status status="PASS" endtime="20181009 10:28:12.615" starttime="20181009 10:27:51.313"></status>
+<status status="PASS" endtime="20181009 11:29:06.041" starttime="20181009 11:28:51.437"></status>
 </suite>
 <statistics>
 <total>

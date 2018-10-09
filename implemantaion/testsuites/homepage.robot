@@ -7,7 +7,9 @@ Test Teardown  Close Browser
 ***Variables***
 
 ***Test Cases***
-Search Bar
+Change Currency
   [Tags]  ready
-  [Documentation]  Search Barın geldiginin kontrolü
-  debug
+  [Documentation]
+  Check Homepage
+  Set Price Options
+  Set Currency
