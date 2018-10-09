@@ -6,10 +6,14 @@ Test Teardown  Close Browser
 
 ***Variables***
 
-***Test Cases***
+***Test Cases**
 Change Currency
   [Tags]  ready
   [Documentation]
   Check Homepage
   Set Price Options
   Set Currency
+
+Search City
+  [Documentation]
+  Enter Destination And Set Dates  Rome
